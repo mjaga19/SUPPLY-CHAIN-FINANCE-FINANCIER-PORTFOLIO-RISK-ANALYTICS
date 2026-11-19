@@ -23,15 +23,7 @@ The dataset (`800` financed invoices across `10` corporate buyers, `12` supplier
 * **`Dim_Date`:** Dynamically generated DAX calendar anchored to `Disbursement_Date` (active) and `Extended_Maturity_Date` (inactive).
 * **`Dim_AgingBuckets`:** Disconnected lookup table classifying both overdue and upcoming maturity windows via signed day boundaries.
 
-![Star Schema Data Model](screenshots/star_schema_model.png)
-
----
-
-## Repository Contents
-* **`/powerbi`:** Contains the `.pbix` report, custom `SCF_Bloomberg_Dark_Terminal.json` theme file, and documented `DAX_Measures.dax`.
-* **`/data`:** Contains the calibrated multi-tab workbook (`SCF_Financier_Portfolio_Dataset.xlsx`).
-* **`/docs`:** Contains PDF documentation covering the data dictionary, DAX logic, KPI benchmarks, and business insights.
-* **`/screenshots`:** High-resolution 16:9 captures of the dashboard and Star Schema model view.
+![Star Schema Data Model](StarSchema.png)
 
 ---
 
