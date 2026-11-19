@@ -2,7 +2,7 @@
 
 An executive Power BI Command Center built for corporate banking and trade finance desks to monitor **credit risk, capital utilization, annualized yield, treasury cash inflows, and single-obligor covenant breaches** across a multi-currency Supply Chain Finance (Payables Finance) portfolio.
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](/SCFProject_Preview.png)
 
 ---
 
